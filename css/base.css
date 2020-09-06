@@ -85,6 +85,7 @@ a:focus {
   font-weight: 300;
   letter-spacing: -3px;
   font-size: 3.5rem;
+  line-height: 1.1;
 }
 
 .frame__subtitle {
@@ -127,8 +128,13 @@ a:focus {
   flex-direction: column;
   position: relative;
   align-items: center;
-  padding: 12rem 0;
+  padding: 16rem 0;
   counter-reset: figure;
+}
+@media screen and (min-width: 1024px) {
+  .content {
+    padding: 13rem 0;
+  }
 }
 
 .item {
@@ -249,6 +255,7 @@ a:focus {
 
 .item__caption-copy {
   margin: 0;
+  line-height: 1.5;
 }
 
 .item__caption-copy::before {
@@ -258,5 +265,5 @@ a:focus {
   font-weight: 700;
   font-size: 3rem;
   margin: 0 0 1rem;
-  display: block;
+  display: none;
 }
