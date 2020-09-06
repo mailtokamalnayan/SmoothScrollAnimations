@@ -81,6 +81,7 @@ a:focus {
 .frame__title {
   font-size: 1rem;
   margin: 0;
+  margin-top: 2rem;
   font-family: "Spectral", sans-serif;
   font-weight: 300;
   letter-spacing: -3px;
@@ -128,12 +129,12 @@ a:focus {
   flex-direction: column;
   position: relative;
   align-items: center;
-  padding: 16rem 0;
+  padding: 18rem 0;
   counter-reset: figure;
 }
 @media screen and (min-width: 1024px) {
   .content {
-    padding: 13rem 0;
+    padding: 16rem 0;
   }
 }
 
@@ -168,7 +169,7 @@ a:focus {
 }
 
 .item:first-child .item__img-wrap {
-  width: calc(100vw - 2rem);
+  width: 800px;
   --aspect-ratio: 16/10;
   --image: url(../img/2.jpg);
 }
