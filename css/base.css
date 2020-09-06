@@ -168,14 +168,15 @@ a:focus {
 }
 
 .item:first-child .item__img-wrap {
-  --aspect-ratio: 8/10;
-  --image: url(../img/1.jpg);
+  width: calc(100vw - 2rem);
+  --aspect-ratio: 16/10;
+  --image: url(../img/2.jpg);
 }
 
 .item:nth-child(2) .item__img-wrap {
   width: 1000px;
   --aspect-ratio: 120/76;
-  --image: url(../img/2.jpg);
+  --image: url(../img/1.jpg);
 }
 
 .item:nth-child(3) .item__img-wrap {
